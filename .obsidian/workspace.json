@@ -31,10 +31,14 @@
             "id": "f2ab614f7f306dce",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion/Taskcheduler python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Taskcheduler python"
             }
           }
         ]
@@ -202,8 +206,9 @@
   },
   "active": "f2ab614f7f306dce",
   "lastOpenFiles": [
-    "Introduccion/Crear entorno virtual.md",
     "Introduccion/Vistas.md",
+    "Introduccion/Taskcheduler python.md",
+    "Introduccion/Crear entorno virtual.md",
     "Bienvenido.md",
     "Introduccion"
   ]
