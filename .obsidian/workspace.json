@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion/Crear entorno virtual.md",
+                "file": "Introduccion python/Crear entorno virtual.md",
                 "mode": "source",
                 "source": false
               },
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion/Taskcheduler python.md",
+                "file": "Introduccion python/Taskcheduler python.md",
                 "mode": "source",
                 "source": false
               },
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion/3 Manejo de archivos en python.md",
+                "file": "Introduccion python/3 Manejo de archivos en python.md",
                 "mode": "source",
                 "source": false
               },
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion/3.1 Archivos CSV.md",
+                "file": "Introduccion python/3.1 Archivos CSV.md",
                 "mode": "source",
                 "source": false
               },
@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion/3.2 json.md",
+                "file": "Introduccion python/3.2 json.md",
                 "mode": "source",
                 "source": false
               },
@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion/Crear entorno virtual.md",
+                "file": "Introduccion python/3.4 20 ejemplos xpath.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crear entorno virtual"
+              "title": "3.4 20 ejemplos xpath"
             }
           }
         ],
@@ -263,20 +263,28 @@
   },
   "active": "b8e37a80086ff325",
   "lastOpenFiles": [
-    "Introduccion/3.2 json.md",
-    "Introduccion/3.3 Leer archivos grandes.md",
+    "Introduccion python/Xml/Estructura de XML.md",
+    "Introduccion python/3.4 20 ejemplos xpath.md",
+    "Pasted image 20260310163120.jpg",
+    "Pasted image 20260310163108.jpg",
+    "samplexml.webp",
+    "Pasted image 20260310162936.png",
+    "nodetree.gif",
+    "Introduccion python/Crear entorno virtual.md",
+    "Introduccion python/Xml",
+    "Introduccion python/3.2 json.md",
+    "Introduccion python/3.3 Leer archivos grandes.md",
     "report_invoice_name.xml.md",
-    "Introduccion/Sin título.md",
-    "Introduccion/3.1 Archivos CSV.md",
-    "Introduccion/3 Manejo de archivos en python.md",
-    "Introduccion/2.2 Wrapper.md",
-    "Introduccion/Python.md",
-    "Introduccion/2 .1 Decoradores.md",
-    "Introduccion/1 Clases y objetos.md",
-    "Introduccion/Crear entorno virtual.md",
-    "Introduccion/Taskcheduler python.md",
-    "Introduccion/Vistas.md",
+    "Introduccion python/Sin título.md",
+    "Introduccion python/3.1 Archivos CSV.md",
+    "Introduccion python/3 Manejo de archivos en python.md",
+    "Introduccion python/2.2 Wrapper.md",
+    "Introduccion python/Python.md",
+    "Introduccion python/2 .1 Decoradores.md",
+    "Introduccion python/1 Clases y objetos.md",
+    "Introduccion python/Taskcheduler python.md",
+    "Introduccion python/Vistas.md",
     "Bienvenido.md",
-    "Introduccion"
+    "Introduccion python"
   ]
 }
