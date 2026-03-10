@@ -37,3 +37,12 @@ def saludar():
     print("Hola")
 
 saludar()
+
+
+func y wrapper son parte clave para entender como una funcion puede moficar el comportamiento de otra funcion
+
+func
+es la funcion original que queremos decorar o modificar cuando usas un decorador con @ python pasa automaticamente la funcion original como argumento al decorador
+
+def mi_decorador(func):
+    print("Decorando la función")
