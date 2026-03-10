@@ -61,16 +61,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.1 Archivos CSV.md",
+                "file": "Introduccion/3.1 Archivos CSV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "3.1 Archivos CSV"
             }
+          },
+          {
+            "id": "97f14fc9b0f573e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion/3.2 json.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.2 json"
+            }
+          },
+          {
+            "id": "b8e37a80086ff325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion/Crear entorno virtual.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Crear entorno virtual"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -233,16 +261,19 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "f87b19771de42603",
+  "active": "b8e37a80086ff325",
   "lastOpenFiles": [
+    "Introduccion/3.2 json.md",
+    "Introduccion/3.3 Leer archivos grandes.md",
+    "report_invoice_name.xml.md",
+    "Introduccion/Sin título.md",
+    "Introduccion/3.1 Archivos CSV.md",
     "Introduccion/3 Manejo de archivos en python.md",
-    "3.1 Archivos CSV.md",
     "Introduccion/2.2 Wrapper.md",
     "Introduccion/Python.md",
     "Introduccion/2 .1 Decoradores.md",
     "Introduccion/1 Clases y objetos.md",
     "Introduccion/Crear entorno virtual.md",
-    "report_invoice_name.xml.md",
     "Introduccion/Taskcheduler python.md",
     "Introduccion/Vistas.md",
     "Bienvenido.md",
