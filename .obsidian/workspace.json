@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion python/3.4 20 ejemplos xpath.md",
+                "file": "Introduccion python/Xml/Estructura xml con odoo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.4 20 ejemplos xpath"
+              "title": "Estructura xml con odoo"
             }
           }
         ],
@@ -263,14 +263,15 @@
   },
   "active": "b8e37a80086ff325",
   "lastOpenFiles": [
-    "Introduccion python/Xml/Estructura de XML.md",
+    "Introduccion python/Crear entorno virtual.md",
+    "Introduccion python/Xml/Estructura xml con odoo.md",
     "Introduccion python/3.4 20 ejemplos xpath.md",
+    "Introduccion python/Xml/Estructura de XML.md",
     "Pasted image 20260310163120.jpg",
     "Pasted image 20260310163108.jpg",
     "samplexml.webp",
     "Pasted image 20260310162936.png",
     "nodetree.gif",
-    "Introduccion python/Crear entorno virtual.md",
     "Introduccion python/Xml",
     "Introduccion python/3.2 json.md",
     "Introduccion python/3.3 Leer archivos grandes.md",
