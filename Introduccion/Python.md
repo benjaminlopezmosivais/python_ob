@@ -1,48 +1,165 @@
-## clases y objetos 
-las clases son como plantillas para crear objetos
-
-un objeto es una instancia de una clase
+## Clases y objetos
 
 
-Una clase persona que tiene un constructor y un metodo saludar
 
-class Persona:  
-    def __init__(self, nombre, edad):  
-        self.nombre = nombre  
-        self.edad = edad  
+# 1️⃣ ¿Qué es realmente `wrapper`?
+
+`wrapper` **es simplemente otra función**.
+
+No es algo especial de Python.  
+Solo es **una función normal que vive dentro del decorador**.
+
+Ejemplo:
+
+def mi_decorador(func):  
   
-    def saludar(self):  
-        print("Hola, soy", self.nombre)  
-
-Un objeto de la clase persona que estamos instanciando para poder usar en este caso pasamos los parametros al constructor y usamos el metodo saluda
-# Crear objeto  
-p1 = Persona("Ana", 25)  
+    def wrapper():  
+        print("Antes")  
+        func()  
+        print("Después")  
   
-p1.saludar()
-
-## Decoradores
-un decorador es una funciona que modifica otra sin cambiar su codigo se usa con @
-
-aqui declaro me funcion
-def mi_decorador(func):
-    def wrapper():
-        print("Antes de ejecutar")
-        func()
-        print("Después de ejecutar")
     return wrapper
 
-aqui la mando llamar y la peronalizo 
-@mi_decorador
-def saludar():
+Aquí tenemos **dos funciones**:
+
+mi_decorador  
+wrapper
+
+---
+
+# 2️⃣ ¿Por qué existe el wrapper?
+
+Porque necesitamos una función que:
+
+1. Ejecute código **antes**
+    
+2. Ejecute la **función original**
+    
+3. Ejecute código **después**
+    
+
+El wrapper hace eso.
+
+wrapper():  
+   antes  
+   func()  
+   después
+
+---
+
+# 3️⃣ Qué hace exactamente
+
+Supongamos este código:
+
+@mi_decorador  
+def saludar():  
     print("Hola")
+
+Python hace esto:
+
+saludar = mi_decorador(saludar)
+
+Entonces:
+
+func = saludar
+
+Y `mi_decorador` devuelve `wrapper`.
+
+Ahora:
+
+saludar = wrapper
+
+---
+
+# 4️⃣ Entonces cuando llamas saludar()
 
 saludar()
 
+realmente pasa esto:
 
-func y wrapper son parte clave para entender como una funcion puede moficar el comportamiento de otra funcion
+wrapper()
 
-func
-es la funcion original que queremos decorar o modificar cuando usas un decorador con @ python pasa automaticamente la funcion original como argumento al decorador
+Y dentro del wrapper ocurre:
 
-def mi_decorador(func):
-    print("Decorando la función")
+print("Antes")  
+func()  -> saludar original  
+print("Después")
+
+Resultado:
+
+Antes  
+Hola  
+Después
+
+---
+
+# 5️⃣ Visualización clara
+
+Antes del decorador:
+
+saludar → función original
+
+Después del decorador:
+
+saludar → wrapper  
+           ↓  
+           llama a func()  
+           ↓  
+           func es la función original
+
+---
+
+# 6️⃣ Algo importante
+
+`wrapper` **no es obligatorio llamarlo así**.
+
+Esto funciona igual:
+
+def mi_decorador(func):  
+  
+    def otra_funcion():  
+        print("Antes")  
+        func()  
+        print("Después")  
+  
+    return otra_funcion
+
+Pero casi todos lo llaman `wrapper` porque significa:
+
+envoltura
+
+---
+
+# 7️⃣ La estructura típica de un decorador
+
+Casi todos se ven así:
+
+def decorador(func):  
+  
+    def wrapper():  
+        # código antes  
+        func()  
+        # código después  
+  
+    return wrapper
+
+---
+
+# 8️⃣ Regla fácil para recordarlo
+
+Un decorador siempre tiene **3 cosas**:
+
+1 función decorador  
+2 función wrapper  
+3 return wrapper
+
+---
+
+# 🧠 Si quieres, te puedo enseñar algo que **termina de hacer clic a todo mundo**:
+
+El momento donde **Python literalmente reemplaza tu función**, o sea:
+
+saludar deja de ser saludar  
+y se convierte en wrapper
+
+Cuando ves eso paso a paso, **los decoradores quedan clarísimos para siempre**
