@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "report_invoice_name.xml.md",
+                "file": "Introduccion/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report_invoice_name.xml"
+              "title": "Python"
             }
           }
         ],
@@ -221,8 +221,9 @@
   },
   "active": "e8d27bac47a988e9",
   "lastOpenFiles": [
-    "Introduccion/Taskcheduler python.md",
     "report_invoice_name.xml.md",
+    "Introduccion/Python.md",
+    "Introduccion/Taskcheduler python.md",
     "Introduccion/Vistas.md",
     "Introduccion/Crear entorno virtual.md",
     "Bienvenido.md",
