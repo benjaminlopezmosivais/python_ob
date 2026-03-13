@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion python/Xml/Estructura xml con odoo.md",
+                "file": "Introduccion python/Crear entorno virtual.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estructura xml con odoo"
+              "title": "Crear entorno virtual"
             }
           }
         ],
@@ -263,8 +263,8 @@
   },
   "active": "b8e37a80086ff325",
   "lastOpenFiles": [
-    "Introduccion python/Crear entorno virtual.md",
     "Introduccion python/Xml/Estructura xml con odoo.md",
+    "Introduccion python/Crear entorno virtual.md",
     "Introduccion python/3.4 20 ejemplos xpath.md",
     "Introduccion python/Xml/Estructura de XML.md",
     "Pasted image 20260310163120.jpg",
