@@ -2,7 +2,19 @@
 
 Es recomendable trabajar en un **virtualenv** para aislar dependencias.
 
-ahora usar este comando en caso de tener mas de una version de py
+usar este comando en caso de tener mas de una version de python para crear diferentes entornos virtuales:
+
+py -3.10 -m venv venv15
+
+py -3.13-m venv venv18
+## Nota
+
+---------------
+
+python -m venv venv
+usara el por defecto antes no pasaba nada por que solo se tenia una version
+
+------------------------
 
 
 ```
