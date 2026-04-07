@@ -9,6 +9,10 @@ py -3.10 -m venv venv15
 py -3.13-m venv venv18
 ## Nota
 
+python C:\Python313\odoo\comunity\odoo\odoo-bin -c C:\Python313\odoo\community.conf -d odoo_community -u l10n_mx_sat_descarga
+
+python ./../odoo-bin -c ./odoo.conf  -d odoo_15
+
 ---------------
 
 python -m venv venv
