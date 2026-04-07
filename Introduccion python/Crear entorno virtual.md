@@ -19,7 +19,8 @@ python -m venv venv
 usara el por defecto antes no pasaba nada por que solo se tenia una version
 
 ------------------------
-
+ Entrar a psql
+ & "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U odoo -d postgres
 
 ```
 # Crear carpeta del proyecto
