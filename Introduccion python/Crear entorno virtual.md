@@ -2,6 +2,8 @@
 
 Es recomendable trabajar en un **virtualenv** para aislar dependencias.
 
+ahora usar este comando en caso de tener mas de una version de py
+
 
 ```
 # Crear carpeta del proyecto
