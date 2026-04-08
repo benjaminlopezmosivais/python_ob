@@ -13,6 +13,9 @@ python C:\Python313\odoo\comunity\odoo\odoo-bin -c C:\Python313\odoo\community.c
 
 python ./../odoo-bin -c ./odoo.conf  -d odoo_15
 
+
+python C:\Python313\odoo\comunity\odoo\odoo-bin -c C:\Python313\odoo\odoo.conf -d odoo18 -u new_18_rename_invoice
+
 ---------------
 
 python -m venv venv
